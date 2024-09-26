@@ -1,3 +1,7 @@
+<?php 
+    require 'header.php';
+?>
+
 <?php
 include 'D:\GrsDatabase\htdocs\greyhawktour\includes\dbh.inc.php'; // Include the database connection
 
@@ -6,23 +10,8 @@ $sql = "SELECT * FROM tour_packages";
 $result = $conn->query($sql);
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Greyhawk Travel and Tours</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
 
-    <!-- Navigation -->
-    <nav>
-        <a href="index.php">Home</a>
-        <a href="login.php">Login</a>
-        <a href="register.php">Register</a>
-    </nav>
-
+ 
     <!-- Hero Section -->
     <header>
         <h1>Welcome to Greyhawk Travel and Tours</h1>
@@ -43,12 +32,10 @@ $result = $conn->query($sql);
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Greyhawk Travel and Tours. All rights reserved.</p>
-    </footer>
-
-</body>
-</html>
+   
 
 <?php $conn->close(); // Close the database connection ?>
+
+<?php
+    require 'footer.php';
+?>
