@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h2 class="my-4">Upload New Tour Package</h2>
-        <form action="upload_package.php" method="POST" enctype="multipart/form-data">
+        <form action="\greyhawktour\includes\upload_package.php" method="POST" enctype="multipart/form-data">
             <div class="mb-3">
                 <label for="package_name" class="form-label">Package Name</label>
                 <input type="text" class="form-control" id="package_name" name="package_name" required>

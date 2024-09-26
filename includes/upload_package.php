@@ -3,7 +3,7 @@
 $host = 'localhost';
 $user = 'root';  // Replace with your DB username
 $password = '';  // Replace with your DB password
-$dbname = 'your_database_name';  // Replace with your DB name
+$dbname = 'greyhawk_travel';  // Replace with your DB name
 
 // Create connection
 $conn = new mysqli($host, $user, $password, $dbname);
@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $price = $_POST['price'];
 
     // File upload logic
-    $target_dir = "images/"; // Directory to store uploaded images
+    $target_dir = "C:/ecommerce/htdocs/greyhawktour/images/images"; // Directory to store uploaded images
     $image_name = basename($_FILES["image"]["name"]);
     $target_file = $target_dir . $image_name;
     $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Insert tour package data into database
         $sql = "INSERT INTO tour_packages (package_name, description, price, image) VALUES (?, ?, ?, ?)";
         $stmt = $conn->prepare($sql);
-        $stmt->bind_param("ssds", $package_name, $description, $price, $image_name);
+        $stmt->bind_param("ssis", $package_name, $description, $price, $image_name);
 
         if ($stmt->execute()) {
             echo "The package has been uploaded successfully!";
