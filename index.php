@@ -12,48 +12,6 @@
                     </div>
                 </header>
     <div id="main">
-                
-<body>
-    <!-- Fixed Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Greyhawk Travel and Tours</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#packages">Tour Packages</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#hotels">Hotels</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#flights">Flights</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <header id="home" class="bg-light text-dark text-center py-5">
-        <div class="container">
-            <h1>Welcome to Greyhawk Travel and Tours</h1>
-            <p>Your journey begins here. Explore the world with us!</p>
-            <a href="#packages" class="btn btn-primary">Explore Tour Packages</a>
-        </div>
-    </header>
 
     <!-- Tour Packages Section -->
     <section id="packages" class="py-5">
@@ -63,21 +21,27 @@
                 <!-- Example Package 1 -->
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="tour1.jpg" class="card-img-top" alt="Tour Package 1">
+                        <img src="/greyhawktour/images/undergroundriver.jpg" class="card-img-top" alt="Tour Package 1">
                         <div class="card-body">
-                            <h5 class="card-title">Beach Escape</h5>
-                            <p class="card-text">Enjoy a relaxing vacation on the pristine beaches.</p>
+                            <h5 class="card-title">Puerto Princessa Underground River</h5>
+                            <p>Php. 4,750/pax</p>
+                            <p class="card-text">Puerto Princesa City is the center of Palawan and best known for the internationally recognized Puerto Princesa Subterranean River (or Underground River), a UNESCO World Heritage Site and one of the New 7 Wonders of Nature. Not only that, the city is critically acclaimed for its environmental excellence.
+                           <br> Hop on and book your travel with us now.</p>
                             <a href="#" class="btn btn-primary">Book Now</a>
                         </div>
+                        
                     </div>
                 </div>
                 <!-- Example Package 2 -->
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="tour2.jpg" class="card-img-top" alt="Tour Package 2">
+                        <img src="/greyhawktour/images/elnido.jpg" class="card-img-top" alt="Tour Package 2">
                         <div class="card-body">
-                            <h5 class="card-title">Mountain Adventure</h5>
-                            <p class="card-text">Explore breathtaking mountain views and nature.</p>
+                            <h5 class="card-title">4D3N El Nido Free & Easy Tour</h5>
+                            <p>Php. 5,339/pax</p>
+                            <p class="card-text">El Nido Palawan is located in the northeast mainland of Puerto Princesa City which is a 5-6 hours drive from the town proper. The travel is worth the long drive as the island is equipped with natural splendor and ecosystem that awaits your arrival.
+                            Our free and easy package let you decide what tour you want to include in your itinerary. Enjoy island hopping tour, swimming, snorkeling, and other water activities. All island hopping tours are already included with lunch.
+                            <br>Pack your bag and Book with us now.</p>
                             <a href="#" class="btn btn-primary">Book Now</a>
                         </div>
                     </div>
@@ -85,10 +49,13 @@
                 <!-- Example Package 3 -->
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="tour3.jpg" class="card-img-top" alt="Tour Package 3">
+                        <img src="/greyhawktour/images/bohol.jpg" class="card-img-top" alt="Tour Package 3">
                         <div class="card-body">
-                            <h5 class="card-title">City Tour</h5>
-                            <p class="card-text">Discover the best of city life with guided tours.</p>
+                            <h5 class="card-title">BOHOL FREE & EASY </h5>
+                            <p>Php 5,339/pax</p>
+                            <p class="card-text">Bohol is located in the heart of Central Visayas with a narrow strait that separates it to the equally famous city of Cebu. Bohol is famous for its Chocolate Hills(a group of unusually shaped of hills covered with grass that turns brown like chocolate), Philippine tarsier(one of the smallest primates and indigenous in the island) and white sand beaches (in Anda and Panglao Area). Also for the adventurous at heart, you could avail their other activities like ziplining, caving, kayaking and etc.
+                            <br>This is nature at its best.
+                            <br>Book with us now.</p>
                             <a href="#" class="btn btn-primary">Book Now</a>
                         </div>
                     </div>
@@ -96,18 +63,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
-        <div class="container">
-            <p>&copy; 2024 Greyhawk Travel and Tours. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-8jWzLAXNZhOQD+2vxr5qHOJScFswTezPVxdQgiI7qdCzIcZcW/wN2i+KjyITfg0c" crossorigin="anonymous"></script>
-</body>
-</html>
 
     </div>
 </div>
