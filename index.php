@@ -3,12 +3,25 @@
 ?>
 
 <?php
-include 'D:\GrsDatabase\htdocs\greyhawktour\includes\dbh.inc.php'; // Include the database connection
+include 'C:\ecommerce\htdocs\greyhawktour\includes\dbh.inc.php'; // Include the database connection
 
 // Fetch all tour packages from the database
 $sql = "SELECT * FROM tour_packages";
 $result = $conn->query($sql);
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
