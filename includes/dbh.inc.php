@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$dbname = 'travel_and_tours';
+$dbname = 'greyhawk_travel';
 $username = 'root'; // Change this if your MySQL username is different
 $password = ''; // Your MySQL password
 

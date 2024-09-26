@@ -1,5 +1,5 @@
 <?php
-include 'db.php'; // Include the database connection
+include 'D:\GrsDatabase\htdocs\greyhawktour\includes\dbh.inc.php'; // Include the database connection
 
 // Fetch all tour packages from the database
 $sql = "SELECT * FROM tour_packages";
